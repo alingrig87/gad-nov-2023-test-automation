@@ -16,7 +16,6 @@ public class SignUpPageTest extends BaseUITest {
         boolean isPageAvailable = signUpPage.open(pageUnderTestUrl);
 
         Assert.assertEquals(isPageAvailable, exceptedAvailability);
-
     }
 
 }
